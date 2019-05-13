@@ -1,0 +1,38 @@
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-btn {
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    padding: 0.25rem 0.5rem;
+    text-transform: uppercase;
+    border: 3px solid#f15025;
+    color:#f15025;
+    border-radius: 7px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.color-btn:hover {
+    background: rgb(0,0,0);
+}
+
+.container {
+    text-align: center;
+}
+
+.rgb-color {
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-bottom: 200px;;
+}
+
+.rgb {
+    font-size: 3rem;
+}
